@@ -1,0 +1,53 @@
+*{margin:0}
+body{
+    overflow: hidden;
+}
+.text{
+    width: 100vw;
+    word-spacing: 4px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: baseline;
+    top: 4%; 
+    /* left: 50%; 
+    transform: translate(-50% , 0%); */
+    font-family: 'Trade Winds', cursive;
+}
+span{
+    font-size: 18px;
+}
+.ori {
+    transition: 1s;
+    width: 100%;
+    height: 100vh;
+}
+.blu{
+    transition: 1s;
+    width: 100%;
+    height: 100vh;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+.box{
+    transition: 1s;
+    position: absolute;
+    top:16.25%; left: 34%; 
+    width :35%;
+    height: 65vh;
+    overflow: hidden;
+    /* border: 4px solid red; */
+}
+.fixit{
+    position: absolute;
+    top: -25.25%;left: -97.45%;
+    width: 285.714285%;
+    height: 100vh;
+}
+.box:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    border-radius: 1.5em;
+    box-shadow: #333 4px 0px 20px 2px;
+}
